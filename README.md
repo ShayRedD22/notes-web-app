@@ -21,3 +21,6 @@ con el comando npm i
     "passport-google-oauth20"
     "passport-local"
     "timeago.js"
+    "nodemon"
+    "mysql"
+    UNA VES INSTALADAS LAS DEPENDCIAS USANDO EL COMANDO NPM RUN DEV O NPM START SE LEVANTA EL SERVIDOR DE FORMA LOCAL
