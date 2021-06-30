@@ -1,8 +1,8 @@
 # notes-web-app
-
+# IMPORTANTE LEER
 se deben instalar las dependicias 
 con el comando npm i 
-"bcryptjs"
+    "bcryptjs"
     "bootstrap"
     "connect-flash"
     "cookie-parser":
