@@ -1,0 +1,71 @@
+body{
+	margin: 0;
+	padding: 0px;
+	
+}
+
+.contiainer{
+	display: grid;
+	background-color: lightgray;
+	grid-template-areas: 'cabeza cabeza'
+	'cuerpo1 cuerpo2'
+	'pies pies';
+	height: 100vh;
+	width: 100vw;
+}
+
+.barranav{
+	grid-area: cabeza;
+	align-items: space-between;
+	display: flex;
+	justify-content: center;
+	height: 10vh;
+
+	background-color: red;
+}
+.navbar{
+	width: 100%;
+	justify-content: center;
+}
+
+.espacioblanco{
+	grid-area: cuerpo1;
+	background-color: purple;
+	height: 80vh;
+	width: 50vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+.divimg{
+	
+	padding-top: 100px;
+	height: 100%
+}
+.imagenespacioblanco{
+	border-radius: 50%;
+}
+
+.espacioform{
+	grid-area: cuerpo2;
+	background-color: blue;
+	height: 80vh;
+	width: 50vw;
+	align-items: space-between;
+	display: flex;
+	justify-content: center;
+
+}
+
+.contform{
+	width: 45vw;
+	padding-top: 150px;
+}
+
+.barrafoot{
+	grid-area: pies;
+	height: 10vh;
+	background-color: red;
+}
